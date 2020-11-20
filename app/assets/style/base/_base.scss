@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, p, label, span, div, a, li {
+  line-height: 1.5;
+  color: black;
+  a {
+    color: black;
+    &:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.btn-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dropdown-toggle::after {
+  color: $secondary;
+}
