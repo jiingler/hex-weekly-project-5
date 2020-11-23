@@ -11,6 +11,11 @@
 }
 
 .px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.py-32 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -27,16 +32,51 @@
   padding-top: 16px;
 }
 
+.px-2 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .mr-16 {
   margin-right: 16px;
+}
+
+.mr-23 {
+  margin-right: 23px;
 }
 
 .mr-46 {
   margin-right: 46px;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mr-24 {
+  margin-right: 24px;
 }
 
 .mb-32 {

@@ -1,0 +1,60 @@
+.assignment_wrap {
+  .assignment_list {
+    max-width: 34%;
+    li {
+      &:not(:first-child) {
+        border-top: none;
+      }
+      &:hover {
+        background-color: $primary;
+      }
+    }
+    .title, .name {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      margin-right: 25px;
+    }
+    .author, .title, .name, .apply-time {
+      white-space: nowrap;
+    }
+  }
+  .assignment_detail {
+    width: 63%;
+    .assignment_item {
+      &:not(:first-child) {
+        border-top: none;
+      }
+    }
+    .comments {
+      border-top: none;
+      overflow-y: auto;
+      .comment:not(:last-child){
+        padding-bottom: 0;
+        .comment_right {
+          border-bottom: 1px solid $primary-deep;
+        }
+      }
+      .list-item {
+        text-indent: 1rem;
+      }
+    }
+  }
+}
+
+.assignment_footer {
+  .content {
+    width: 63%;
+  }
+  .function-btns {
+    .mark:hover {
+      background-color: $secondary;
+      color: white;
+    }
+    .reply:hover {
+      background-color: #fff;
+      color: $secondary;
+      border: 1px solid $secondary;
+    }
+  }
+}

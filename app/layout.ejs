@@ -13,7 +13,7 @@
 
 <body>
   <div class="h-100 d-flex">
-    <section class="section-left px-32 d-flex flex-column align-items-start">
+    <section class="section-left py-32 d-flex flex-column align-items-start bgc-primary">
       <h1 class="mb-32 pl-32">
         <a href="#">
           <img src="assets/img/logo.svg" width="150" alt="logo">
@@ -64,19 +64,19 @@
             <a href="#">
               Andy Chen
             </a>
-          </h5>
-          <p class="fz-14 ">
-            <a href="mailto:andy0401@mail.com">
+          </p>
+          <p class="fz-14">
+            <a class="c-b-60" href="mailto:andy0401@mail.com">
               andy0401@mail.com
             </a>
           </p>
         </div>
       </div>
     </section>
-    <section class="section-right p-32 container-fluid">
+    <section class="section-right p-32 container-fluid d-flex flex-column justify-content-between">
       <!--header-->
         <% if(projectName === 'Assignment') { %>
-          <%- include('./projects/assignment.html'); %>
+          <%- include('./layout/assignment-header.html'); %>
         <% } %>
       <!---->
       
