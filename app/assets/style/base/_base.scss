@@ -16,12 +16,21 @@ img {
 
 h1, h2, h3, h4, h5, p, label, span, div, a, li {
   line-height: 1.5;
-  color: black;
   a {
     color: black;
     &:hover {
       color: black;
-      text-decoration: underline;
+      text-decoration: none;
+    }
+    h1, h2, h3, h4, h5, p, label, span, div, a, li{
+      &:hover {
+        // color: black;
+        text-decoration: underline;
+      }
     }
   }
+}
+
+i.material-icons:hover {
+  color: $secondary;
 }
