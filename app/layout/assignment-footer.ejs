@@ -1,0 +1,17 @@
+<div class="assignment_footer d-flex justify-content-end">
+  <div class="content d-flex justify-content-between align-items-center">
+    <div class="navigate d-flex">
+      <a class="mr-23" href="#">
+        <i class="material-icons">navigate_before</i>
+      </a>
+      <a href="#">
+        <i class="material-icons">navigate_next</i>
+      </a>
+    </div>
+    <div class="function-btns">
+      <button class="mark btn bd-secondary c-secondary px-32 py-8 mr-16">Mark as read</button>
+      <button id="reply-assignment" class="reply btn bgc-secondary c-white px-32 py-8" onclick="toggleTextEditor()">Reply</button>
+    </div>
+  </div>
+  <%- include('./components/text-editor.html'); %>
+</div>
