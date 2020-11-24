@@ -12,3 +12,17 @@
   object-fit: cover;
   object-position: center;
 }
+
+.menu-item {
+  a:hover {
+    color: $secondary;
+  }
+}
+
+.active {
+  border-left: 4px solid $secondary;
+  padding-left: 28px;
+  a {
+    color: $secondary;
+  }
+}
