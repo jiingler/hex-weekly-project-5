@@ -27,7 +27,7 @@
     height: 549px;
     .assignment_item {
       &:not(:first-child) {
-        border-top: none;
+        border-top: none !important;
       }
     }
     .comments {
@@ -35,7 +35,7 @@
       overflow-y: auto;
       max-height: 481px;
       .comment:not(:last-child){
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
         .comment_right {
           border-bottom: 1px solid $primary-deep;
         }
@@ -54,12 +54,12 @@
   }
   .function-btns {
     .mark:hover {
-      background-color: $secondary;
-      color: white;
+      background-color: $secondary !important;
+      color: white !important;
     }
     .reply:hover {
-      background-color: #fff;
-      color: $secondary;
+      background-color: #fff !important;
+      color: $secondary !important;
       border: 1px solid $secondary;
     }
   }

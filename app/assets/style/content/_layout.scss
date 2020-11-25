@@ -21,7 +21,7 @@
 
 .active {
   border-left: 4px solid $secondary;
-  padding-left: 28px;
+  padding-left: 28px !important;
   a {
     color: $secondary;
   }

@@ -1,27 +1,19 @@
-.fz-12 {
-  font-size: 12px;
+.font-size-base { 
+  font-size: $font-size-base;
 }
 
-.fz-14 {
-  font-size: 14px;
+.font-size-lg { 
+  font-size: $font-size-lg;
 }
 
-.fz-16 {
-  font-size: 16px;
- }
- 
- .fz-24 {
-   font-size: 24px;
- }
+.font-size-xl { 
+  font-size: $font-size-xl;
+}
 
- .fw-b {
-   font-weight: bold;
- }
+.font-size-xs { 
+  font-size: $font-size-xs;
+}
 
- .fw-500 {
-   font-weight: 500;
- }
-
- .fw-300 {
-   font-weight: 300;
- }
+.font-size-sm { 
+  font-size: $font-size-sm;
+}
